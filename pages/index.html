@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/splide-4.1.3/splide-4.1.3/dist/css/themes/splide-sea-green.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="module" defer src="/scripts/main.js"></script>
+    
+    <title>SneakersLand</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav> 
+            <a href="/pages/index.html" class="logo">
+                <img src="/img/img/nike.svg" alt="nike logo">
+            </a>
+            <ul class="nav-navigation">
+                <li><a href="#">New arrivals</a></li>
+                <li><a href="/pages/man.html">Men</a></li>
+                <li><a href="/pages/women.html">Women</a></li>
+                <li><a href="/pages/unisex.html">Unisex</a></li>
+                <li><a href="#">Collection</a></li>
+            </ul>
+            <div class="nav-menu">
+                <input type="text" name="" class="search-input" placeholder="Search...">
+                <div class="menu-item">
+                    <span class="search">
+                        <img src="/img/img/search.svg" alt="">
+                    </span>
+                </div>
+                <div class="menu-item">
+                    <a href="/pages/favorites.html">
+                        <img src="/img/img/heart.svg" alt="">
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="/pages/cart.html">
+                        <img src="/img/img/bag.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        </nav>
+    </div>
+    <div class="join-block">
+        <div class="join-text">
+            <p>Members : Free Shipping on Orders $50+</p>
+            <a href="#">Join Now</a>
+        </div>
+    </div>
+<!-- slider -->
+<div class="splide" role="group" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+          <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="slide1">
+                    <img src="/img/sliderImg/shoe.svg" alt="" class="shoe-slider">
+                    <img src="/img/sliderImg/circle.svg" alt="" class="logo-slider">
+                    <h1>RETRO LOW</h1>
+                    <div class="rectangle">
+                        VOODOO
+                    </div>
+                    <div class="slider-text">The Nike Dunk Low SE Jackpot GS is a low-cut
+                        sneaker with hints of grey, white, blue, and red.
+                    </div>
+                   <div class="shop-box">SHOP NOW!</div>
+                </div>
+              </li>
+
+              <!-- slide2 -->
+              <li class="splide__slide">
+               <div class="slider2">
+                <img src="/img/sliderImg/shoeSlider2.svg" alt="">
+                <h1>Women's Shoes</h1>
+                <h2>NIKE AIR MAX 90 FUTURA</h2>
+                <span>$160</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi maiores minus ipsam dolore culpa, nulla aliquam sapiente tenetur recusandae quae velit nihil exercitationem vitae expedita dicta doloremque dolorem accusamus?</p>
+                <div class="img-block">
+                   <img src="/img/sliderImg/3shoeimg.svg" alt="">
+                </div> 
+                <h3>Select size</h3>
+                    <div class="size-block">
+                <select name="size" id="size">
+                    <option value="8.5">US 8.5</option>
+                </select>
+            </div>
+            <div class="cart-block">
+                <img src="/img/sliderImg/cart.svg" alt="">
+                <a href="#">
+                    Add to Cart
+                </a>
+            </div>
+        
+            </div>
+            </li>
+            
+          </ul>
+    </div>
+  </div>
+  <script>
+    var splide = new Splide( '.splide' );
+splide.mount();
+  </script>
+<!-- end slider -->
+</header>
+    <main>
+        <div class="container">
+            <div class="product-menu">
+                <!-- <select name="filters" id="filters">
+                    <option value="price">price</option>
+                    <option value=""></option>
+                </select> -->
+                <p class="total-products"></p>
+                <button class="clear-filter">Clear all filters</button>
+            </div>
+            <div class="product-container"></div>
+        </div>
+    </main>
+</body>
+</html>

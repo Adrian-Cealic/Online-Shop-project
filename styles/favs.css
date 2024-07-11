@@ -1,0 +1,25 @@
+.product-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+body {
+    height: 100svh;
+}
+
+.fa-square-minus {
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.qty-block .fa-square-minus:hover::before {
+    color: red;
+}

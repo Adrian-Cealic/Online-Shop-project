@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Air Jordan 1 Retro Low Voodoo",
+        "price": 379.99,
+        "category": "Men’s shoes",
+        "img": "../img/productImg/1.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 2,
+        "name": "Dunk Low Active Fuchsia",
+        "price": 169.99,
+        "category": "Women’s shoes",
+        "img": "../img/productImg/2.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 3,
+        "name": "Dunk Low Black White",
+        "price": 144.99,
+        "category": "Unisex shoes",
+        "img": "../img/productImg/3.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 4,
+        "name": "Dunk Low 85 Neptune Green",
+        "price": 164.99,
+        "category": "Men’s shoes",
+        "img": "../img/productImg/4.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan Retro Low Quai 54",
+        "price": 169.99,
+        "category": "Men’s shoes",
+        "img": "../img/productImg/5.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 6,
+        "name": "Nike Pegasus 40 SE",
+        "price": 129.99,
+        "category": "Men’s shoes",
+        "img": "../img/productImg/6.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 7,
+        "name": "Nike Star Runner",
+        "price": 54.99,
+        "category": "Women’s shoes",
+        "img": "../img/productImg/7.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    },
+    {
+        "id": 8,
+        "name": "Dunk Low Jade",
+        "price": 90.99,
+        "category": "Unisex shoes",
+        "img": "../img/productImg/8.png",
+        "qty": 1,
+        "favouriteIMG": "../img/likedIMG/whiteHeart.svg"
+    }
+]
